@@ -7,14 +7,14 @@ h3("About"),
   h5("Our Ideology"),
   h4("Our main objective in this project was to identify general school and player
      statistics within the NCAA Men's basketball league."),
-  h4("The data we used was sourced from an Excel spreadsheet containing player statistics
-     from the 2017-2018 season. This file had player information including their school, conference, 
+  h4("The data we used was sourced from the official NCAA website that has been exported onto an Excel spreadsheet containing player statistics
+     from the 2020-2021 season. This file had player information including their school, conference, 
      field goal attempts, field goals made, and other statistics relevant to basketball."),
   img("", src = "https://media.giphy.com/media/3oz8xUgF5WLTV3RjFu/giphy.gif", 
       width = 800),
 
   p(" "),
-  h5("Our Main Questions"),
+  h5("Our Main Questions:"),
   h4("  Statistics is ubiquitious especially when referred to the exciting world of sports"),
   h4("and athletics. Because of this phenomenon, questions arise from either interest or "),
   h4("from analytics. We wanted to tackle these curiosities, some of which consider the"),
@@ -25,7 +25,7 @@ h3("About"),
   )
 )
 
-df <- read.csv("data/Player_Stats.csv", stringsAsFactors = FALSE)
+df <- read.csv("C:/Users/Karth/OneDrive/Documents/Player_Stats.csv", stringsAsFactors = FALSE)
 
 conferences <- df %>%
   select(Conf) %>%
