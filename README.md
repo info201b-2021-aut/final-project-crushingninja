@@ -1,4 +1,4 @@
-Pac 12 RMD Data Exploration
+NCAA Data Exploration, Analysis, Deliverable
 https://fields8.shinyapps.io/NCAA_2017-2018/
 
 
